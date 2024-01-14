@@ -54,7 +54,7 @@ def main():
         )
 
 
-    pregunta = "¿Qué le dijo la mamá a María?: que no la quiere"
+    pregunta = "¿Qué le gusta hacer a la gata?:jugar "
 
     run_conversation(chat,pregunta)
 
