@@ -4,6 +4,9 @@ from langchain.llms import OpenAI
 from utils import (get_openai_api_key)
 from langchain import LLMChain   
 
+from dotenv import load_dotenv
+load_dotenv() 
+
 def comprension(chat, pregunta):
     plantilla_profe_egra = """Eres un profesor calificando una prueba EGRA, en la cual debes calificar 
     que tanto han entendido los estudiantes al leer la lectura contexto que está abajo, debes ser muy

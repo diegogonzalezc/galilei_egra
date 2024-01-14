@@ -1,5 +1,7 @@
 from utils import get_current_file_path
 import openai
+from dotenv import load_dotenv
+load_dotenv() 
 
 def main():
     current_file_path = get_current_file_path()
